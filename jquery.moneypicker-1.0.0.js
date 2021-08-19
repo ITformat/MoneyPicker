@@ -1,6 +1,6 @@
 /* ========================================
    MoneyPicker v1.0.0
-   http://www.kamaleoon.it/
+   http://www.format.it/
    Copyright (c) 2021 Format s.r.l.
    Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    
