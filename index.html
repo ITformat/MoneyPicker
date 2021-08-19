@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Format MoneyPicker</title>
+  <meta charset="UTF-8">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
+
+  <!-- Format MoneyPicker CSS -->
+  <link rel="stylesheet" href="./jquery.moneypicker.css">
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+  <!-- Font awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" crossorigin="anonymous"></script>
+
+  <!-- Format MoneyPicker  -->
+  <script type="text/javascript" src="./jquery.moneypicker-1.0.0.js"></script>
+</head>
+
+<body>
+
+  <div class="container col-4 pt-5" >
+    <label for="Price" class="col-form-label text-nowrap"><strong>Money picker</strong></label>
+    <div class="input-group">
+      <div class="input-group-prepend" data-toggle="popover" data-type="moneypicker" data-input="inputPrice" data-sign="1">
+        <span class="input-group-text"><span class="fa fa-euro-sign"></span></span>
+      </div>
+      <input type="text" id="inputPrice" name="price" class="form-control" value="7" pattern="^(\d{1,6})(,\d{1,2})*(\.\d{1,2})?$" required autofocus>
+    </div>
+  </div>
+
+  <div class="container col-4 pt-5">
+    <label for="Price" class="col-form-label text-nowrap"><strong>Money picker inline</strong></label>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr align="right">
+          <td style="width: 800px;">
+            <span class="amount" id="lblAmount"
+                  data-type="moneypicker"
+                  data-bills="[100, 50, 10]"
+                  data-coins="[2, 1, 0.5, 0.1, 0.05]"
+                  data-func='{"sign":"true","reset":"true"}'
+                  data-hf="hf"
+                  data-amount="lblAmount"
+                  data-credit="lblCredit"
+                  data-total="lblTotal"
+                  data-error="lblError"
+                  data-confirm="lblButton"
+                  data-container="container"
+                  data-min="0"
+                  data-max="250">5,00</span>
+            <input name="hf" id="hf" type="hidden">
+          </td>
+        </tr>
+        <tr style="height: 5px;"></tr>
+        <tr align="right">
+          <td><span class="credit" id="lblCredit">-7,00</span></td>
+        </tr>
+        <tr style="height: 1px;"></tr>
+        <tr>
+          <td>
+            <hr style="margin: 0px;">
+          </td>
+        </tr>
+        <tr align="right">
+          <td>
+            <span class="total" id="lblTotal"></span>
+          </td>
+        </tr>
+        <tr style="height: 5px;"></tr>
+        <tr align="right">
+          <td id="container"></td>
+        </tr>
+        <tr align="right">
+          <td>
+            <span class="error" id="lblError"><br /></span>
+          </td>
+        </tr>
+        <tr align="right">
+          <td>
+            <span class="btn btn-success" id="lblButton">Conferma</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container col-4 pt-5">
+    <label for="Price" class="col-form-label text-nowrap"><strong>Money picker popup</strong></label>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr align="right">
+          <td style="width: 800px;">
+            <span id="lblAmount2"
+                  data-type="moneypicker"
+                  data-hf="hf2"
+                  data-amount="lblAmount2"
+                  data-credit="lblCredit2"
+                  data-total="lblTotal2"
+                  data-sign="1">+8,00</span>
+            <input name="hf2" id="hf2" type="hidden">
+          </td>
+        </tr>
+        <tr style="height: 5px;">
+        <tr align="right">
+          <td><span class="credit" id="lblCredit2">+9,00</span></td>
+        </tr>
+        <tr style="height: 1px;">
+        <tr>
+          <td>
+            <hr style="margin: 0px;">
+          </td>
+        </tr>
+        <tr align="right">
+          <td>
+            <span class="total" id="lblTotal2"></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

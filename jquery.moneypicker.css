@@ -1,0 +1,44 @@
+/* ========================================
+   MoneyPicker v1.0.0
+   http://www.duepalleggi.it/
+   Copyright (c) 2021 Format s.r.l.
+   ======================================== */
+
+.popover {
+  max-width: inherit !important;
+}
+
+.popover-content {
+  padding: 9px 9px;
+}
+
+.popover-text {
+  color: darkgray;
+}
+
+.function {
+  cursor: pointer;
+  padding-left :5px;
+}
+
+.coins, .bills {
+  cursor: pointer;
+  padding-right:3px;
+}
+
+.amount, .amountpos, .amountneg,
+.credit, .creditpos, .creditneg,
+.total, .totalpos, .totalneg {
+  font-family: Calibri, Verdana, Arial, Helvetica, Sans-Serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: Gray;
+  cursor:default;
+}
+
+.amountpos, .creditpos, .totalpos { color: Green; }
+.amountneg, .creditneg, .totalneg { color: Red; }
+
+.decimal {
+  font-size: 12pt;
+}
