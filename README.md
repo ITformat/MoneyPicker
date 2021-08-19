@@ -12,7 +12,7 @@
 See [Moneypicker](https://www.format.it/demo/moneypicker) live
 
 ## Screen shots
-![Money Picker view](./screenshots/demo.png)
+![Money Picker view](https://www.format.it/demo/moneypicker/screenshots/0001.png)
 
 ## Install
 - Cloning using Git: `git clone https://github.com/ITformat/moneypicker.git`
