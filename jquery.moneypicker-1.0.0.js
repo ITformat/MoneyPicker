@@ -2,9 +2,11 @@
    MoneyPicker v1.0.0
    http://www.kamaleoon.it/
    Copyright (c) 2021 Format s.r.l.
-
+   Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+   
    Requires: moneypicker.css
-             jquery 1.3.x, bootstrap 3.0.0
+             jquery 1.3.x, 
+             bootstrap 3.x
    ======================================== */
 
 if (typeof jQuery === 'undefined') { throw new Error('MoneyPicker\'s JavaScript requires jQuery') }
