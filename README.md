@@ -22,8 +22,8 @@ See [Moneypicker](https://www.format.it/demo/moneypicker) live
 First release 1.0.0
 
 Dependecies:
-  - Bootstrap
-  - Jquery
+  - Jquery v3.5.1
+  - Bootstrap v.4.5.2
 
 ## Example
 
