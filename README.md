@@ -5,7 +5,7 @@
 [Moneypicker](https://github.com/itformat/moneypicker/) is a modular money picker plugin for Bootstrap.
 
 ## Live Demo
-See live at [https://www.format.it/demo/moneypicker](https://www.format.it/demo/moneypicker)
+See live at https://www.format.it/demo/moneypicker
 
 ## Screen shots
 ![Money Picker view](https://www.format.it/demo/moneypicker/screenshots/0001.png)
@@ -80,8 +80,10 @@ Please see the [License File](https://github.com/ITformat/MoneyPicker/blob/main/
 
 Written and maintained by [Marco Montagnani](https://www.format.it/#team) and all other contributors.
 
-*Thanks to all everybody that will support this project.*
-
 <a class="readme-logo" href="https://www.format.it/">
     <img alt="Moneypicker" src="https://www.format.it/img/logo-format.png" width="300px" />
 </a>
+
+*Thanks to all everybody that will support this project.*
+
+[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate?hosted_button_id=FDL9PF2E2MGF8)
